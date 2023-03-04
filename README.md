@@ -7,7 +7,7 @@ SMC is a Java application that translates a state transition table into a progra
 ###Command Line
 `java -jar smc.jar -l <language> -o <directory> -f <flags>`
 
- * `<language>` is `C`, `Cpp`, 'GDScript' or `Java`.  
+ * `<language>` is `C`, `Cpp`, `GDScript` or `Java`.  
  * `<directory>` is the output directory.  Your new state machine will be written there.
  * `<flags>` currently for Java only.  `package:package_name` will put the appropriate `package` statement in the generated code.
 
