@@ -14,6 +14,14 @@ public class Utilities {
     return commaList;
   }
 
+    public static String enumList(List<String> names) {
+	String enumList = "";
+	for (String name : names) {
+	    enumList += "case " + name + "\n";
+	}
+	return enumList;
+    }
+
   public static List<String> addPrefix(String prefix, List<String> list) {
     List<String> result = new ArrayList<>();
     for (String element : list)
